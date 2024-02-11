@@ -1,0 +1,22 @@
+.menu-container {
+    padding: 30px;
+    background: white;
+    width: 35%;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    top: 10%;
+    transform: translate(-50%);
+    display: grid;
+    gap: 10px;
+    text-align: center;
+}
+
+.menu-container.dark {
+    background: rgb(200, 200, 200);
+}
+
+.select-menu {
+    display: flex;
+    justify-content: space-between;
+}

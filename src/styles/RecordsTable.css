@@ -1,0 +1,19 @@
+.records-table-container {
+    padding: 20px;
+    width: 50%;
+    background: white;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    top: 2%;
+    border-radius: 20px;
+    text-align: center;
+}
+
+.records-table-container.dark {
+    background: rgb(189, 189, 189);
+}
+
+table {
+    width: 100%;
+}

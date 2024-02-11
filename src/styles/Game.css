@@ -1,0 +1,62 @@
+.container-game {
+    padding: 20px;
+    background: white;
+    width: 55%;
+    display: grid;
+    justify-items: center;
+    border-radius: 20px;
+    position: relative;
+    left: 50%;
+    top: 3%;
+    transform: translate(-50%);
+    gap: 15px;
+    border: 1px solid;
+    box-shadow: 2px 2px 5px rgb(95, 95, 255);
+}
+
+.container-game.dark {
+    background: rgb(200, 200, 200);
+    box-shadow: 2px 2px 5px rgb(171, 171, 171);
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: repeat(4, 100px);
+    gap: 5px;
+}
+
+.board-6x6 {
+    grid-template-columns: repeat(6, 80px);
+    grid-template-rows: repeat(6, 80px);
+}
+
+.board-8x8 {
+    grid-template-columns: repeat(8, 60px);
+    grid-template-rows: repeat(8, 60px);
+}
+
+.card {
+    background: rgb(233, 233, 233);
+    border: 1px solid rgb(100, 100, 100);
+    cursor: pointer;
+    width: 100%;
+    height: 100%;
+}
+
+.icon {
+    width: 100%;
+    height: 99%;
+    border: 1px solid rgb(100, 100, 100);
+}
+
+.statistic-game {
+    display: flex;
+    justify-content: space-evenly;
+    width: 100%;
+}
+
+.game-buttons {
+    display: flex;
+    gap: 10px;
+}

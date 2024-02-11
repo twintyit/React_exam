@@ -1,0 +1,78 @@
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: 0;
+    font-family: "Comic Sans MS", cursive;
+}
+
+input {
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.button,
+.select {
+    cursor: pointer;
+    background: rgb(95, 95, 255);
+    color: white;
+    padding: 10px 30px;
+    border-radius: 10px;
+}
+
+button.dark,
+.select.dark {
+    background-color: rgb(171, 171, 171);
+}
+
+.main {
+    background: rgb(246, 246, 246);
+    color: black;
+    height: 100vh;
+}
+
+.main.dark {
+    background: rgb(116, 116, 116);
+    color: white;
+}
+
+.onoff-slider {
+    width: 60px;
+    height: 30px;
+    border-radius: 15px;
+    background-color: #ccc;
+    position: relative;
+    cursor: pointer;
+}
+
+.onoff-slider.on {
+    background-color: rgb(171, 171, 171);
+}
+
+.onoff-slider.off {
+    background: rgb(95, 95, 255);
+}
+
+.slider-thumb {
+    width: 25px;
+    height: 25px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    position: absolute;
+    left: 5%;
+    top: 50%;
+    transform: translateY(-50%);
+    transition: 0.3s ease;
+}
+
+.onoff-slider.on .slider-thumb {
+    left: 53%;
+    background: gray;
+}
+
+.slider-app {
+    position: absolute;
+    left: 88%;
+    top: 1%;
+    gap: 10px;
+    display: flex;
+}
